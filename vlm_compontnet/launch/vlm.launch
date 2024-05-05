@@ -1,0 +1,12 @@
+<launch>
+
+
+    <!-- Node to run the vision detection service -->
+    <node name="vision_service_node"
+          pkg="vlm_vision_service"
+          type="fake_vision_detection.py"
+          output="screen">
+        <!-- Set API key as a ROS parameter --> 
+        <param name="/api_key" value="" />
+    </node>
+</launch>
