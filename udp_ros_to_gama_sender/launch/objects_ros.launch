@@ -1,0 +1,24 @@
+<launch>
+	<group ns="optitrack">
+		<node pkg="udp_ros_to_gama_sender" type="udp_ros_to_gama_sender.py" name="udp_ros_to_gama_sender_0" output="screen">
+			<param name="host" value="10.205.3.76" />
+			<param name="port" value="9876" />
+			<param name="body" value="umh_0" />
+		</node>
+		<node pkg="udp_ros_to_gama_sender" type="udp_ros_to_gama_sender.py" name="udp_ros_to_gama_sender_1" output="screen">
+			<param name="host" value="10.205.3.76" />
+			<param name="port" value="9877" />
+			<param name="body" value="umh_1" />
+		</node>
+		<node pkg="udp_ros_to_gama_sender" type="udp_ros_to_gama_sender.py" name="udp_ros_to_gama_sender_2" output="screen">
+			<param name="host" value="10.205.3.76" />
+			<param name="port" value="9878" />
+			<param name="body" value="umh_2" />
+		</node>
+		<node pkg="udp_ros_to_gama_sender" type="udp_ros_to_gama_sender.py" name="udp_ros_to_gama_sender_3" output="screen">
+			<param name="host" value="10.205.3.76" />
+			<param name="port" value="9879" />
+			<param name="body" value="umh_3" />
+		</node>
+	</group>
+</launch>

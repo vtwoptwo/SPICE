@@ -1,0 +1,11 @@
+<launch>
+<arg name="marker_number" default="2"/>
+<arg name="base_id" default="0"/>
+<arg name="gama_ip" default="10.205.3.69"/>
+<arg name="port" default="9876"/>
+
+  <node pkg="udp_ros_to_gama_sender" type="ros_to_gama_launch_constructor.sh" 
+    args="-n $(arg marker_number) -b $(arg base_id) -i $(arg gama_ip) -p $(arg port)" name="udp_ros_to_gama_sender_launch" output="screen">
+  </node>
+
+</launch>
