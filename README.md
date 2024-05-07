@@ -9,3 +9,12 @@ The ”Smart Projector Interface for Cooking Enhancement” (SPICE), is a user i
 | Vision | User interface for the cooking process | [Interface](./vision/) |
 | Audio | Audio feedback for the cooking process | [Audio](./audio/) |
 
+
+### OptiTrack DataFlow
+<img src="./images/optitrack_component.png" width="800">
+
+### Vision DataFlow 
+<img src="./images/vision_component.png" width="800">
+
+
+
